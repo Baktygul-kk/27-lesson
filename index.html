@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;0,900;1,400&family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300&display=swap"
+    rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="scss/style.scss">
 </head>
@@ -48,36 +53,37 @@
           </nav>
     </header>
 <main>
-    <section class="banner  text-center">
+    <section class="banner text-center">
         <div class="container">
-            <div class="w-75 mx-auto py-5">
+            <div class="w-75 mx-auto py-5 d-flex flex-column">
                 <h1>Exapmle of banner</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, libero quod! Quo magnam ipsam fugit nostrum facere totam cum maxime?</p>
+                <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, libero quod! Quo magnam ipsam fugit nostrum facere totam cum maxime?</p>
                 <a href="#" class="btn btn-warning">Read more</a>
             </div>
         </div>
     </section>
 
-    <section class="about py-5 text-center">
+    <section class="about p-5">
         <div class="container">
-            <h2 class="display-2">Two columns</h2>
-            <div class="row">
+            <h2 class="display-2 text-center text-uppercase mb-5">Two columns</h2>
+            <div class="row alignn-items-center">
                 <div class="col-12 col-md-6 ">
-                    <img class="w-100" src="" alt="" >
+                    <img class="w-100"  src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80"
+                    alt="">
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="feautures text-center">
+    <section class="feautures">
         <div class="container">
-            <h2 class="display-2">Lorem, ipsum dolor.</h2>
+            <h2 class="display-2 text-center text-center mb-5">Lorem, ipsum dolor.</h2>
             <div class="row">
-                <div class="col-12 col-md-4 px-3 py-5">
-                    <div class="card bg-warning">
+                <div class="col-12 col-md-4">
+                    <div class="card text-dark bg-warning mb-3 px-3 py-5 text-center">
                         <div class="card-body">
-                            <h4 class="mb-4">Lorem, ipsum dolor sit amet conse</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, <vero class="lorem10"></vero></p>
+                            <h5 class="card-title mb-4">Lorem, ipsum dolor sit amet conse</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, </p>
                         </div>
                     </div>
                 </div>
@@ -102,7 +108,7 @@
         </div>
     </section>
 
-    <section class="slider">
+    <section class="slider py-5">
         <div class="container">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
@@ -149,7 +155,7 @@ Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem, perspiciatis?
         </div>
     </section>
 
-    <footer class="footer text-center bg-warning">
+    <footer class="footer text-center bg-warning text-dark p-4">
         <div class="container">
             <p>&copy;Lesson27</p>
         </div>
